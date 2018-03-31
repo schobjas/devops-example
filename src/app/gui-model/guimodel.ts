@@ -2,7 +2,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "DevOps Example",
+            "title": "Easy",
             "formList": [
                 {
                     "id": "PersonForm",
@@ -10,16 +10,16 @@ export class GuiModel {
                     "url": "/person",
                     "formFieldList": [
                         {
-                            "id": "familyName",
+                            "id": "family name",
                             "type": "text",
-                            "name": "FamilyName",
+                            "name": "family name",
                             "width": 1,
                             "required": true
                         },
                         {
-                            "id": "firstName",
+                            "id": "pre name",
                             "type": "text",
-                            "name": "FirstName",
+                            "name": "pre name",
                             "width": 1,
                             "required": true
                         },
@@ -349,7 +349,7 @@ export class GuiModel {
                             "type": "button",
                             "name": "Projects",
                             "icon": "fa-cubes",
-                            "color": "yellow",
+                            "color": "pink" ,
                             "page": "projectspage",
                         },
                         {
